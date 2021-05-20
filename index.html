@@ -101,7 +101,7 @@
       
   </header>
   
-  <section id="carousel-images" style="background-color: beige;padding-top: 8em;" >
+  <section id="carousel-images" style="padding-top: 8em;" >
     <div class="container">
       <div class="row">
         <div class="col-md-12" >
@@ -109,22 +109,22 @@
             <div class="carousel-inner">
               <div class="carousel-item active" data-bs-interval="2500">
                 <img src="shop img.jpg" 
-                class="d-block w-100" alt="">
+                class="d-block w-100" alt="shop image">
               </div>
               <div class="carousel-item photo" data-bs-interval="2500">
                 <img src="shop img 2.jpg" 
-                class="d-block w-100" alt="">
+                class="d-block w-100" alt="shop image">
               </div>
               <div class="carousel-item photo" data-bs-interval="2500">
                 <img src="shop img 3.jpg" 
-                class="d-block w-100" alt="">
+                class="d-block w-100" alt="shop image">
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <hr class="hori-line">
+    
   </section>
 
   <section id="home" style="padding-top: 7em;">
@@ -160,7 +160,7 @@
         <div class="col-lg-4">
           <div class="card " style="height: 27em;">
             <img src="ujala.jfif" 
-            class="card-img-top" alt="..." style="height: 21em;">
+            class="card-img-top" alt="ujala" style="height: 21em;">
             <div class="card-body text-center">
               <p class="card-text"><strong>Ujala Washing Powder 1kg</strong><br>MRP : Rs.150<br>Our price : Rs.135</p>
             </div>
@@ -170,7 +170,7 @@
         <div class="col-lg-4">
           <div class="card" style="height: 27em;">
             <img src="yardley.jfif" 
-            class="card-img-top" alt="..." style="height: 21em;">
+            class="card-img-top" alt="yardley" style="height: 21em;">
             <div class="card-body text-center">
               <p class="card-text"><strong>Yardley perfume</strong><br>MRP : Rs.300<br>Our price : Rs.250</p>
             </div>
@@ -180,7 +180,7 @@
         <div class="col-lg-4">
           <div class="card" style="height: 27em;">
             <img src="nescafe.jfif" 
-            class="card-img-top" alt="..." style="height: 21em;">
+            class="card-img-top" alt="nescafe" style="height: 21em;">
             <div class="card-body text-center">
               <p class="card-text"><strong>Nescafe Coffee Powder</strong><br>MRP : Rs.200<br>Our price : Rs.180</p>
             </div>
@@ -193,7 +193,7 @@
         <div class="col-lg-4">
           <div class="card " style="height: 27em;">
             <img src="malkist.jfif" 
-            class="card-img-top" alt="..." style="height: 21em;">
+            class="card-img-top" alt="malkist" style="height: 21em;">
             <div class="card-body text-center">
               <p class="card-text"><strong>Nabati Cheese Wafer</strong><br>MRP : Rs.20<br>Buy 2 get 1 free</p>
               
@@ -204,7 +204,7 @@
         <div class="col-lg-4">
           <div class="card " style="height: 27em;">
             <img src="milkmaid.jfif" 
-            class="card-img-top" alt="..." style="height: 21em;">
+            class="card-img-top" alt="milkmaid" style="height: 21em;">
             <div class="card-body text-center">
               <p class="card-text"><strong>Nestle Milkmaid</strong><br>MRP : Rs.100<br>Free bambino vermicelli</p>
             </div>
@@ -214,15 +214,15 @@
         <div class="col-lg-4">
           <div class="card " style="height: 27em;">
             <img src="honey.jfif" 
-            class="card-img-top" alt="..." style="height: 21em;">
+            class="card-img-top" alt="dabur" style="height: 21em;">
             <div class="card-body text-center">
               <p class="card-text"><strong>Dabur honey</strong><br>MRP : Rs.300<br>Kissan jam 100gm pack free</p>
             </div>
           </div>
         </div>
       </div>
-      </div>
-    </div> 
+    </div>
+    
    <hr class="hori-line"> 
   </section>
 
@@ -246,40 +246,40 @@
           </p>
         </div>
         <div class="col-md-5">
-          <img src="phone intro.png" alt="" class="ml-auto">
+          <img src="phone intro.png" alt="pearl app" class="ml-auto">
         </div>
       </div>
     </div>
     <hr class="hori-line">
   </section>
 
-  <section id="contact" style="padding-top: 0em;">
+  <section id="contact" style="padding-top: 4em;">
     <div class="container">
       <div class="row p-1">
         <div class="col-md-6 pt-5" style="font-size: 1em; border-right: solid 1px rgba(0, 0, 0, 0.1);">
           <h3 class="text-center pb-5">Feedback Form</h3>
-            <form class="row g-3" autocomplete="off">
+            <form class="row g-3" autocomplete="off" action="/feedback_success" method="POST">
               <div class="col-md-6">
                 <label for="inputName" class="form-label">Name</label>
-                <input type="text" class="form-control" id="inputName">
+                <input type="text" class="form-control" id="inputName" value="nizam" autocapitalize="on">
               </div>
               <div class="col-md-6">
                 <label for="inputMobile" class="form-label">Mobile No.</label>
-                <input type="tel" class="form-control" id="inputMobile">
+                <input type="tel" class="form-control" id="inputMobile" value="7902423623">
               </div>
               <div class="col-12">
                 <label for="inputEmail" class="form-label">E-mail</label>
-                <input type="email" class="form-control" id="inputEmail" placeholder="Email address">
+                <input type="email" class="form-control" id="inputEmail" placeholder="Email address" value="nizam@gmail.com">
               </div>
               <div class="col-12">
                 <label for="inputFeedback" class="form-label">Feedback</label> <br>
-                <textarea name="" id="inputFeedback" cols="30" rows="10" class="w-100"></textarea>
+                <textarea name="" id="inputFeedback" cols="30" rows="10" class="w-100" autocapitalize="on" >BLA BLA BLA</textarea>
                 
               </div>
               <div class="col-12">
-                <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#staticBackdrop" id="submit-button">
-                  Submit
-                </button>
+                <input type="submit" class="btn btn-primary w-100" id="submit-button" value="Submit">
+                  
+              
               </div>
               
               
@@ -337,6 +337,7 @@
         $("#inputMobile").val("");
         $("#inputEmail").val("");
         $("#inputFeedback").val("");
+        window.href = 'feedback_success.html'
 
       })
     })
